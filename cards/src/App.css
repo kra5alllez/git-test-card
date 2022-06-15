@@ -1,0 +1,53 @@
+.hui {
+  margin: 1%;
+  display: grid ;
+  grid-template-areas: 
+  "h h"
+  "p m1"
+  "p m2";
+
+  grid-template-columns: 1fr 350px;
+grid-template-rows: 100px 1fr 1fr;
+
+grid-gap: 10px;
+height: 95vh;
+
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+}
+
+.he {
+  border-radius: 10px;
+  padding: 10px; 
+  grid-area: h;
+  background-color: antiquewhite;
+}
+
+.pa {
+  border-radius: 10px;
+  padding: 10px; 
+  grid-area: p;
+  background-color: royalblue;
+}
+.m1 {
+  border-radius: 10px;
+  padding: 10px; 
+  padding: 20px; 
+  grid-area: m1;
+  background-color: bisque;
+}
+.m2 {
+  border-radius: 10px;
+  padding: 10px; 
+  grid-area: m2;
+  background-color: yellowgreen;
+}
